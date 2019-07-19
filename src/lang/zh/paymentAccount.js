@@ -1,0 +1,52 @@
+export default {
+  paymentaccount : {
+    label : {
+      bankcode: '银行编码',
+      bankname: '银行名称',
+      bankcard: '银行卡号',
+      accountname: '用户名',
+      useablestatus: '启用状态',
+      paymenttype: '付款类型',
+      transfertype: '转账类型',
+      bankprimaryno: '银行主卡号',
+      banksecondaryno: '银行副卡号',
+      paymentlevel: '付款等级',
+      minpaymentamount: '最小付款金额',
+      maxpaymentamount : '最大付款金额',
+      transactionnumber: '成功交易笔数',
+      accountflowrestriction: '账户流水限制',
+      localquota: '本地额度',
+      actualquota: '实际额度',
+      remark: '备注',
+      productcode: '产品编码',
+      productname: '产品名称',
+      createtime: '创建时间',
+      createuser: '创建人',
+      updatetime: '更新时间',
+      updateuser: '更改人',
+      enable: '启用',
+      disable: '禁用',
+      addtitle: '新增付款账户',
+      edittitle: '编辑付款账户',
+      accounttype : '账户类型',
+      banktype : '银行类型'
+    },
+    message : {
+      accountnamenull: '用户名不能为空',
+      bankcodenull: '银行编码不能为空',
+      banknamenull: '银行名称不能为空',
+      bankinfonull: '银行不能为空',
+      paymenttypenull: '付款类型不能为空',
+      transfertypenull: '转账类型不能为空',
+      bankprimarynonull: '银行主卡号不能为空',
+      banknoerror: '请输入正确的银行卡号',
+      banksecondarynonull: '银行付卡号不能为空',
+      paymentlevelnull: '付款等级不能为空',
+      useablenull: '是否开启选项不能为空',
+      productcodenull: '所属产品不能为空',
+      amountvalid: '请输入正确的金额',
+      accounttypenull : "账户类型不能为空",
+      banktypenull : '银行类型不能为空'
+    }
+  }
+}

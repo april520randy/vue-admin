@@ -1,0 +1,11 @@
+@mixin bgimage($url) {
+  background-image: url($url);
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

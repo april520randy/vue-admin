@@ -1,0 +1,58 @@
+export default {
+  paymentrecord : {
+    label : {
+      sysorderno: '系统订单号',
+      proorderno: '提案订单号',
+      loginname: '玩家账号',
+      loginname_mp: '会员账号：',
+      paymenttype: '付款类型',
+      bankname: '付款银行',
+      bankname_mp: '支付账户：',
+      accountname: '付款姓名',
+      bankprimaryno: '付款卡号',
+      paymentamount: '付款金额',
+      paymentamount_mp: '取款金额：',
+      paymentfee: '付款手续费',
+      paymentfee_mp: '手续费：',
+      paymentresult: '付款结果',
+      paymentremark: '付款失败原因',
+      cancelremark: '取消订单原因',
+      customeraccount : '客户账号',
+      customername: '客户姓名',
+      customername_mp: '账户姓名：',
+      customerbank: '客户银行',
+      customerbank_mp: '银行：',
+      customercardnumber: '客户卡号',
+      customercardnumber_mp: '银行账号：',
+      paymenttime: '付款时间',
+      paymentlevel: '付款等级',
+      noticestatus: '通知状态',
+      noticeremark: '通知失败原因',
+      noticetime: '通知时间',
+      productcode: '产品编码',
+      productname: '所属产品',
+      createtime: '创建时间',
+      createuser: '创建人',
+      updatetime: '更改时间',
+      updateuser: '更改人',
+      assignmentchannel: "分配渠道",
+      paymentinterval : '渠道区间',
+      paymentTotalCount: '成功付款笔数',
+      paymentTotalAmount : '成功付款金额',
+      noticeLabel : '是否通知该笔订单',
+      remark_mp : '备注：',
+      operator : '订单操作记录',
+      transferSuccess : "转成功"
+    },
+    message : {
+      cancelremarknull : "取消原因不能为空",
+      paymentchannelselectdatanull : "请选择分配渠道",
+      paymentchannelselectdatanotsame : "不能选择与订单相同的付款渠道",
+      bankprimarynonull : '付款卡不能为空',
+      paymentfeenull : '手续费不能为空',
+      paymentfeeerror : '请输入正确的手续费',
+      remark: '备注不能为空'
+    }
+  }
+
+}
