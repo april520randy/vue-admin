@@ -1,6 +1,4 @@
-# dc-modules-office
-
-> 通用后台管理系统
+# 通用后台管理系统
 
 ## Build Setup
 
