@@ -14,7 +14,7 @@
     "element-ui": "^2.4.1",
     "font-awesome": "^4.7.0",
     "js-cookie": "^2.2.0",
-    "moment": "^2.22.2",
+    "moment": "^2.29.2",
     "screenfull": "^3.3.2",
     "security": "^1.0.0",
     "videojs-contrib-hls": "^5.15.0",
